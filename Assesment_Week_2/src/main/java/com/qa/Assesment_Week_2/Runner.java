@@ -183,7 +183,7 @@ public class Runner {
 				System.out.println("Your New Coordinates are: ( " + direction.getxPosition() + " , "
 						+ direction.getyPosition() + " )");
 
-				System.out.println("You are ( " + xDistanceDifference() + " , " + yDistanceDifference()
+				System.out.println("The magic compass says you ( " + xDistanceDifference() + " , " + yDistanceDifference()
 						+ " ) away from the saftey zone");
 
 				System.out.println("Also, you are " + pythagoras() + " m away from the saftey Zone");
@@ -200,7 +200,7 @@ public class Runner {
 				System.out.println("Your New Coordinates are: ( " + direction.getxPosition() + " , "
 						+ direction.getyPosition() + " )");
 
-				System.out.println("You are ( " + xDistanceDifference() + " , " + yDistanceDifference()
+				System.out.println("The magic compass says you ( " + xDistanceDifference() + " , " + yDistanceDifference()
 						+ " ) away from the saftey zone");
 
 				System.out.println("Also, you are " + pythagoras() + " m away from the saftey Zone");
@@ -217,7 +217,7 @@ public class Runner {
 				System.out.println("Your New Coordinates are: ( " + direction.getxPosition() + " , "
 						+ direction.getyPosition() + " )");
 
-				System.out.println("You are ( " + xDistanceDifference() + " , " + yDistanceDifference()
+				System.out.println("The magic compass says you are ( " + xDistanceDifference() + " , " + yDistanceDifference()
 						+ " ) away from the saftey zone");
 
 				System.out.println("Also, you are " + pythagoras() + " m away from the saftey Zone");
@@ -234,7 +234,7 @@ public class Runner {
 				System.out.println("Your New Coordinates are: ( " + direction.getxPosition() + " , "
 						+ direction.getyPosition() + " )");
 
-				System.out.println("You are ( " + xDistanceDifference() + " , " + yDistanceDifference()
+				System.out.println("The magic compass says you are ( " + xDistanceDifference() + " , " + yDistanceDifference()
 						+ " ) away from the saftey zone");
 
 				System.out.println("Also, you are " + pythagoras() + " m away from the saftey Zone");
@@ -244,7 +244,7 @@ public class Runner {
 				break;
 				
 			case 6170:
-				System.out.println("Congratulations, you won by Cheating! \n This was created by Ahmed Osman");
+				System.out.println("Congratulations, you won by Cheating! \nThis game was created by Ahmed Osman");
 			break;
 
 			default:
