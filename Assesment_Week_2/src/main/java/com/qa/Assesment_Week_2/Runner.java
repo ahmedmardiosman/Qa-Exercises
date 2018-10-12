@@ -183,7 +183,7 @@ public class Runner {
 				System.out.println("Your New Coordinates are: ( " + direction.getxPosition() + " , "
 						+ direction.getyPosition() + " )");
 
-				System.out.println("The magic compass says you ( " + xDistanceDifference() + " , " + yDistanceDifference()
+				System.out.println("The magic compass says you are ( " + xDistanceDifference() + " , " + yDistanceDifference()
 						+ " ) away from the saftey zone");
 
 				System.out.println("Also, you are " + pythagoras() + " m away from the saftey Zone");
@@ -200,7 +200,7 @@ public class Runner {
 				System.out.println("Your New Coordinates are: ( " + direction.getxPosition() + " , "
 						+ direction.getyPosition() + " )");
 
-				System.out.println("The magic compass says you ( " + xDistanceDifference() + " , " + yDistanceDifference()
+				System.out.println("The magic compass says you are ( " + xDistanceDifference() + " , " + yDistanceDifference()
 						+ " ) away from the saftey zone");
 
 				System.out.println("Also, you are " + pythagoras() + " m away from the saftey Zone");
