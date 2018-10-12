@@ -1,0 +1,41 @@
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		
+		int a = 10;
+		
+		int b = 20;
+		
+		String operator = "sub";
+		
+		System.out.println(Calculation(a,b,operator));
+		
+		
+	}
+	
+	
+	static int Calculation(int a, int b , String operator) {
+
+		if (operator.equals("add")) {
+			int sum = a + b;
+		}
+		else if (operator.equals("sub")) {
+			int sub = a - b;
+		}
+		else if (operator.equals("multiply")) {
+			int mult = a * b;
+		}
+		else if (operator.equals("division")){
+			double div = a / b;
+		}
+		else {
+			System.out.println("Incorrect operator input");
+		}
+
+
+	}
+	
+
+}

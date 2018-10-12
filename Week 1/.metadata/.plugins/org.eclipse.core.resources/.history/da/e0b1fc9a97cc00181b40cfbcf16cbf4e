@@ -1,0 +1,30 @@
+package com.qa.Garage;
+
+public class Car extends Vehicle {
+
+	int numberOfCarDoors;
+	String carName;
+	
+	
+	public Car(String brand, int numberOfWheels, int numberOfCarDoors) {
+		super(brand, numberOfWheels);
+		this.numberOfCarDoors = numberOfCarDoors;
+		
+	}
+
+
+
+
+
+
+
+	
+	
+	
+	public void drive() {
+
+		System.out.println("You are driving your Car");
+
+	}
+
+}

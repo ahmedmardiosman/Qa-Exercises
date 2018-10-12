@@ -1,0 +1,12 @@
+package com.qa.Garage;
+
+public abstract class Aeroplane extends Vehicle{
+	
+	String numberOfSeats;
+	
+public void flies() {
+		
+		System.out.println("You are flying the aeroplane");
+	}
+
+}

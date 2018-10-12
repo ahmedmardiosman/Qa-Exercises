@@ -1,0 +1,14 @@
+package com.qa.OOP_Exercise_1;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		
+		Person i1 = new Person ("Ahmed", 10 , "Software Developer");
+		
+				System.out.println(i1.name, i1.age, i1.jobTitle);
+
+	}
+
+}

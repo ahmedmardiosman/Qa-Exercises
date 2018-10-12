@@ -1,0 +1,17 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		String alpha = "hunter";
+
+		char[] arr = alpha.toCharArray();
+
+		for (int i = alpha.length() - 1; i >= 0; i--) {
+			System.out.print(arr[i]);
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,36 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class Streams {
+	
+	static List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5, 9, 8, 12);
+	
+	
+	
+
+	public static void main(String[] args) {
+	
+numbers.sort(null);
+
+
+		System.out.println( "The even number in the list are: " );
+		
+		numbers.stream().filter(i -> i % 2 == 0).forEach(System.out::println);
+		
+		numbers.stream().forEach(System.out::println);
+		
+		numbers.stream().map(i -> i *10).forEach(System.out::println);
+
+		
+		
+		
+		
+		
+	}
+
+	
+	
+	
+	
+	
+}

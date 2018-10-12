@@ -1,0 +1,25 @@
+package com.qa.Garage;
+
+public abstract class Vehicle {
+
+	String brand;
+	int numberOfWheels;
+	
+	public Vehicle(String brand, int numberOfWheels) {
+		
+		this.brand = brand;
+		this.numberOfWheels = numberOfWheels;
+		
+	}
+	
+
+	public void sitDown() {
+		
+		System.out.println("You can sit down in your Vehicle");
+	}
+
+	public void playMusic() {
+		System.out.println("You can play music in the Vehicle");
+	}
+
+}

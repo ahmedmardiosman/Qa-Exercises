@@ -1,0 +1,30 @@
+package com.qa.OOP_Exercise_1;
+
+import java.util.ArrayList;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+
+		
+		Person i1 = new Person ("Ahmed", 24 , "Software Developer");
+		
+				System.out.println(i1.name + " " + i1.age + " " + i1.jobTitle);
+
+				
+				
+				ArrayList<Person> personList= new ArrayList<Person>();
+				
+			//	List<String> personList = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.toList());
+
+				
+				System.out.println(personList);
+				
+			System.out.println(i1.toString());
+			
+			
+				
+	}
+
+}

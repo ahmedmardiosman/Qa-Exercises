@@ -1,0 +1,61 @@
+package com.qa.Garage;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Garage {
+
+	private List<Vehicle> vehicleList = new ArrayList<Vehicle>();
+
+	public List<Vehicle> getVehicleList() {
+		return vehicleList;
+	}
+	
+	public void addVeh(Vehicle v) {
+		vehicleList.add(v);
+	}
+
+	public void setVehicleList(List<Vehicle> vehicleList) {
+		this.vehicleList = vehicleList;
+	}
+
+	public int bill() {
+		List<Integer> priceList = new ArrayList<Integer>();
+		int cost = 0;
+		vehicleList.stream().forEach(System.out::println);
+		
+
+		priceList = vehicleList.stream().map(p -> p.getPriceOfVehicle()).collect(Collectors.toList());
+		for (Integer i : priceList) {
+			cost += i;
+		}
+		return cost;
+		
+	}
+		
+		public void billUsingLambdas() {
+			
+			
+			List<Integer> priceList = new ArrayList<Integer>();
+			
+			vehicleList.stream().forEach(System.out::println);
+			
+			vehicleList.stream().map(p -> p.getPriceOfVehicle()).collect(Collectors.toList());
+			
+		}
+		
+		
+
+		// for (Vehicle money: vehicleList) {
+
+		// if (money instanceof ) {
+		// ((Car) money).getPriceOfVehicle();
+		// System.out.println(money);
+		// }
+
+		// }
+
+	}
+
+

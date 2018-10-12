@@ -1,0 +1,13 @@
+package com.qa.Garage;
+
+public class Motorcycle extends Vehicle {
+
+	int heightOfSeat;
+	
+	
+public  void wheely() {
+		
+		
+		
+	}
+}

@@ -1,0 +1,21 @@
+package com.qa.Garage;
+
+public class Aeroplane extends Vehicle{
+	
+	
+	int numberOfSeats;
+	
+	
+	public Aeroplane(String brand, int numberOfWheels, int numberOfSeats) {
+		super(brand, numberOfWheels);
+		this.numberOfSeats = numberOfSeats;
+	}
+
+
+	
+public void flies() {
+		
+		System.out.println("You are flying the aeroplane");
+	}
+
+}

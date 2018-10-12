@@ -1,0 +1,24 @@
+package com.qa.Garage;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Car mercedes = new Car();
+		Motorcycle harley = new Motorcycle();
+		Aeroplane airbus = new Aeroplane();
+		
+		Garage ahmedGarage = new Garage();
+		
+		 ahmedGarage.vehicleList.add(mercedes);
+		 
+		 ahmedGarage.vehicleList.stream().forEach(System.out::println);
+		
+		
+		harley.wheeley();
+		
+	//	harley.flies();
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package com.qa.Garage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Garage {
+
+	private static List<Vehicle> vehicleList = new ArrayList<Vehicle>();
+
+	
+	
+	
+	public static void bill() {	
+		
+		
+		vehicleList.stream().forEach(System.out::println);
+		
+		
+		
+		
+	//	for (Vehicle money: vehicleList) {
+		
+		//	if (money instanceof ) {
+		//		((Car) money).getPriceOfVehicle();
+	//		System.out.println(money);
+		//	}
+			
+	//	}
+		
+	}
+	
+	
+
+}

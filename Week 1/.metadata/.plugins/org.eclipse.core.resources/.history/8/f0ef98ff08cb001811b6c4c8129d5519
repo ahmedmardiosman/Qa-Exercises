@@ -1,0 +1,35 @@
+
+// Runner indicates the class with the main method
+
+public class Runner {
+
+	// denotes scope
+
+	public static void main(String[] args) {
+
+		System.out.println(helloWorld());
+
+		System.out.println(byeWorld());
+
+		System.out.println(flexString("\"Bye World!!\""));
+
+	}
+
+	static String byeWorld() {
+
+		return "Bye World!!";
+
+	}
+
+	static String helloWorld() {
+
+		return "Hello World!!";
+
+	}
+
+	static String flexString(String flexInput) {
+
+
+	return flexInput;
+
+	}

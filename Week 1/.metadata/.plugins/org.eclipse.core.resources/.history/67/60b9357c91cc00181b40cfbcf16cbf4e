@@ -1,0 +1,16 @@
+package com.qa.Garage;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Vehicle mercedes = new Car();
+		Motorcycle harley = new Motorcycle();
+		Vehicle airbus = new Aeroplane();
+		
+		
+		harley.sitDown();
+
+	}
+
+}

@@ -1,0 +1,23 @@
+
+public class Runner {
+
+	
+
+	public static void main(String[] args) {
+
+		
+		
+		oneToTen();
+		
+	}
+	
+	
+	static int oneToTen(int a , int b) {
+	
+	for (int i = 1; i < 11; i++) {
+		System.out.print(i);
+	}
+	
+
+}
+	}

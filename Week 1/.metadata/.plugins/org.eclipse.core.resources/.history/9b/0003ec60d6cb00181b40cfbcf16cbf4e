@@ -1,0 +1,22 @@
+
+public class Runner {
+	
+    public static void main (String args[]) {
+    	
+    	Runner tester = new Runner();
+    	
+    	MathOperation addition = (int a , int b) -> a + b;
+    	
+    	
+    	System.out.println("39 +21" + tester.operate(10, 5, addition));
+    	
+    }
+
+    interface MathOperation {
+        int operation(int a, int b);
+     }
+
+    private int operate(int a, int b, MathOperation mathOperation) {
+        return mathOperation.operation(a, b);
+     }
+}

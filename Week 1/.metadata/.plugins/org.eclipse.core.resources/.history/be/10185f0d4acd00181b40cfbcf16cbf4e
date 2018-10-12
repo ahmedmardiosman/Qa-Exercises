@@ -1,0 +1,13 @@
+package com.qa.Black_Jack;
+
+public class BlackJack {
+
+	public int play(int i, int j) {
+	
+		
+		return 10;
+	}
+
+	
+	
+}

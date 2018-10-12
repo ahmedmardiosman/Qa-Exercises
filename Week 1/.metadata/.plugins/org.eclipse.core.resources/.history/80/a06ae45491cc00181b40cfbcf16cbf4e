@@ -1,0 +1,20 @@
+package com.qa.Garage;
+
+public abstract class Vehicle {
+
+	String brand;
+	int numberOfWheels;
+	String typeOfFuel;
+	String colour;
+	int numberOfDoors;
+	int numberOfSeats;
+	int topSpeed;
+	double engineSize;
+	
+	
+
+	public void sitDown();
+
+	public void playMusic();
+
+}

@@ -1,0 +1,18 @@
+package com.qa.delegate;
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		Delegate d1 = new Delegate(); //new Delegate() constructor, this object will be immediatley destroyed, now Delegate stores the information from Delegate constructor!
+		// d1 is the object created from the class
+		
+		d1.remove();
+		
+		
+		Delegate aDifferentDelegate = new Delegate();
+		
+		aDifferentDelegate.changeStream();
+	}
+
+}

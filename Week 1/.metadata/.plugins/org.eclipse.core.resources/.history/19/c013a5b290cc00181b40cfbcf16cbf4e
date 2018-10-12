@@ -1,0 +1,14 @@
+package com.qa.Garage;
+
+import javax.sound.midi.MidiDevice.Info;
+
+public abstract class Aeroplane extends Vehicle{
+	
+	Info numberOfWings;
+	
+public void flies() {
+		
+		System.out.println("You are flying the aeroplane");
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.qa.Garage;
+
+public class Motorcycle extends Vehicle {
+
+	int heightOfSeat;
+	
+	public Motorcycle(String brand, int numberOfWheels, int heightOfSeat) {
+		super(brand, numberOfWheels);
+		//
+	}
+
+
+
+	
+	
+public  void wheeley() {
+		
+	System.out.println("You can wheeley your Motorcycle");
+		
+	}
+}

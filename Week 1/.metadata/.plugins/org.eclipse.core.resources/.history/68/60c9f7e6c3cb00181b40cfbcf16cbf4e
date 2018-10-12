@@ -1,0 +1,51 @@
+
+public class Runner {
+	
+	static String[] numbers = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten" };
+
+	
+	
+	
+	public static void main(String[] args) {
+
+		oneToTen(1, 10);
+
+		hundredToNineHundredAndNintyNine(100, 999);
+		
+		oneToTenInWords(numbers);
+		
+		//oneToHundredInWords(myList);
+		
+		
+		
+		
+
+	}
+
+	static void oneToTen(int a, int b) {
+
+		for (int i = 1; i < b + 1; i++) {
+			System.out.println(i);
+		}
+
+	}
+	
+	static void hundredToNineHundredAndNintyNine(int a, int b) {
+
+		for (int i = 1; i < b + 1; i++) {
+			System.out.println(i);
+		}
+
+	}
+	
+	
+	
+	static void oneToTenInWords(String[] myList2) {
+		System.out.println("Each Value in Array: ");
+		for (String words : numbers) {
+			System.out.println(numbers[1] + words);
+		}
+	}
+	
+	
+}

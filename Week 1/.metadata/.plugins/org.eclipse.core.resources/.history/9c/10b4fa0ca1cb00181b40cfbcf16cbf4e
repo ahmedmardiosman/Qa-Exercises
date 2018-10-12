@@ -1,0 +1,46 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class Runner {
+	
+	
+	static  List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5, 9, 8, 12);
+	
+	static  int[] myList = {3, 2, 2, 3, 7, 3, 5, 9, 8, 12};
+
+   public static void main(String[] args) {
+	   
+	   
+	   
+      
+      
+      
+      eachValueInArray(myList);
+     
+      values();
+     
+      
+      
+
+   }
+   
+   
+   static void values() {
+	//   for int (number: numbers)
+   
+   for (int i = 0; i < numbers.size(); i++) {
+       System.out.println(numbers.get(i));
+    }
+   }
+   
+   
+   
+   
+   static void eachValueInArray(int[] myList) {
+	   
+	   for (int i = 0; i < myList.length; i++) {
+	         System.out.println(myList[i]);
+	      }
+   }
+   
+}

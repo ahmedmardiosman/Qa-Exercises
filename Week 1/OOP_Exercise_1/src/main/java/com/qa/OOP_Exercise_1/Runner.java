@@ -1,0 +1,68 @@
+package com.qa.OOP_Exercise_1;
+
+import java.util.ArrayList;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+public class Runner {
+
+	static ArrayList<Person> personList = new ArrayList<Person>();
+
+	static String input = "Adihl";
+
+	public static void main(String[] args) {
+
+		Person i1 = new Person("Ahmed", 24, "Software Developer");
+		Person i2 = new Person("Adonay", 24, "Work Experience Software Developer");
+		Person i3 = new Person("Abz", 24, "Software Developer");
+		Person i4 = new Person("Adil", 24, "Software Developer");
+
+		System.out.println(i1.name + " " + i1.age + " " + i1.jobTitle);
+
+		System.out.println(i1.toString());
+
+		// ArrayList<Person> personList = new ArrayList<Person>(); need to us
+
+		personList.add(i1);
+		personList.add(i2);
+		personList.add(i3);
+		personList.add(i4);
+
+		System.out.println(personList);
+
+		System.out.println(i1);
+
+		System.out.println(personList.get(2)); // use get for list and [] for array
+
+		personList.stream().forEach(System.out::println); // using a stream
+
+		// personList.stream().filter((Predicate<? super Person>) personList)
+
+		for (int i = 0; i < personList.size(); i++) {
+			System.out.println(personList.get(i));
+		}
+
+		for (Person p : personList) {
+			System.out.println(p.toString());
+		}
+
+		search("Adonay");
+		
+		personList.stream().filter(p -> p.name.equals("Adil")).collect(Collectors.toList()).forEach(System.out::println);
+
+	}
+
+	public static void search(String name) {
+
+		for (Person p : personList) {
+			if (input.equals(p.name)) {
+				System.out.println("Found elements in Java array using for loop");
+			} else {
+
+				System.out.println("not Found elements in Java array using for loop");
+			}
+		}
+
+	}
+
+}
